@@ -1,0 +1,199 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.g-axon.com/integral-3.0/classic/form-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2016 07:07:17 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Integral - A fully responsive, HTML5 based admin template">
+    <meta name="keywords" content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
+    <title>Hoardings | Admin</title>
+    <!-- Site favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+    <!-- /site favicon -->
+
+    <!-- Entypo font stylesheet -->
+    <link href="css/entypo.css" rel="stylesheet">
+    <!-- /entypo font stylesheet -->
+
+    <!-- Font awesome stylesheet -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- /font awesome stylesheet -->
+
+    <!-- Bootstrap stylesheet min version -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- /bootstrap stylesheet min version -->
+
+    <!-- Integral core stylesheet -->
+    <link href="css/integral-core.css" rel="stylesheet">
+    <!-- /integral core stylesheet -->
+
+    <link href="css/integral-forms.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+<![endif]-->
+    <!--header's content place holder-->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <!-- Loader Backdrop -->
+        <div class="loader-backdrop">
+            <!-- Loader -->
+            <div class="loader">
+                <div class="bounce-1"></div>
+                <div class="bounce-2"></div>
+            </div>
+            <!-- /loader -->
+        </div>
+        <!-- loader backgrop -->
+
+
+        <!-- Page container -->
+        <div class="page-container">
+
+            <!-- Page Sidebar -->
+            <div class="page-sidebar">
+
+                <!-- Site header  -->
+                <header class="site-header">
+                    <!--Heading Title change here -->
+                    <!--Integral Text is in logo itself here in below line-->
+                    <div class="site-logo"><a href="Home.aspx">Chitra Publicity</a></div>
+                    <div class="sidebar-collapse hidden-xs"><a class="sidebar-collapse-icon" href="#"><i class="icon-menu"></i></a></div>
+                    <div class="sidebar-mobile-menu visible-xs"><a data-target="#side-nav" data-toggle="collapse" class="mobile-menu-icon" href="#"><i class="icon-menu"></i></a></div>
+                </header>
+                <!-- /site header -->
+
+                <!-- Main navigation -->
+                <!--left side menu-->
+                <ul id="side-nav" class="main-menu navbar-collapse collapse">
+                    <li><a href="Home.aspx"><i class="icon-gauge"></i><span class="title">Home</span></a></li>
+
+
+
+                    <li class="has-sub active"><a href="#"><i class="icon-doc-text"></i><span class="title">Forms</span></a>
+                        <ul class="nav">
+                            <li><a href="Add_Admin.aspx"><span class="title">Add Admin</span></a></li>
+                            <li><a href="Add_Booking.aspx"><span class="title">Add Booking</span></a></li>
+                             <li><a href="Add_BookingDetails.aspx"><span class="title">Add Booking's  Detail</span></a></li>
+                            <li><a href="Add_City.aspx"><span class="title">Add City</span></a></li>
+                            <li><a href="Add_Coupons.aspx"><span class="title">Add Coupon</span></a></li>
+                            <li><a href="Add_Employee.aspx"><span class="title">Add Employee</span></a></li>
+                            <li><a href="Add_EmployeeTask.aspx"><span class="title">Add Employee Task</span></a></li>
+                            <li><a href="Add_Feedback.aspx"><span class="title">Add Feedback</span></a></li>
+                            <li><a href="Add_Hoarding.aspx"><span class="title">Add Hoarding</span></a></li>
+                            <li><a href="Add_HoardingType.aspx"><span class="title">Add Hoarding Type</span></a></li>
+                            <li><a href="Add_Location.aspx"><span class="title">Add Location</span></a></li>
+                            <li><a href="Add_Payment.aspx"><span class="title">Add Payment</span></a></li>
+                            <li><a href="Add_User.aspx"><span class="title">Add User</span></a></li>
+                        </ul>
+                    </li>
+
+                     <li class="has-sub active"><a href="#"><i class="icon-doc-text"></i><span class="title">Reports</span></a>
+                        <ul class="nav">
+                            <li><a href="Reports/AdminWiseWorkAllocationReport.aspx"><span class="title">Admin Wise Work Allocation</span></a></li>
+                            <li><a href="Reports/BookingBwnDatesReport.aspx"><span class="title">Booking Between Dates</span></a></li>
+                             <li><a href="Reports/BookingDetailsReport.aspx"><span class="title">Booking's Details</span></a></li>
+                            <li><a href="Reports/BookingStatusReport.aspx"><span class="title">Status Wise Bookings</span></a></li>
+                          <!--  <li><a href="Reports/CityWiseHoardingsReport.aspx"><span class="title">Hoardings in a City</span></a></li> -->
+                            <li><a href="Reports/DateWisePaymentReport.aspx"><span class="title">Payment Between Dates</span></a></li>
+                            <li><a href="Reports/EachEmployeeTaskReport.aspx"><span class="title">Employee's Task Report</span></a></li>
+                            <li><a href="Reports/LocationWiseHoardingReport.aspx"><span class="title">Hoardings in a Location</span></a></li>
+                            <li><a href="Reports/LocationWiseUserReport.aspx"><span class="title"> Locations Wise Users</span></a></li>
+                            <li><a href="Reports/PriceWiseReport.aspx"><span class="title">Price Wise Hoardings</span></a></li>
+                            <li><a href="Reports/TypeWiseHoardingReport.aspx"><span class="title">Category Wise Hoardings</span></a></li>
+                            <li><a href="Reports/UsersReport.aspx"><span class="title">User's List</span></a></li>
+                            <li><a href="Reports/UserWiseBookingReport.aspx"><span class="title">Bookings for a User</span></a></li>
+                             <li><a href="Reports/UserWiseFeedbackReport.aspx"><span class="title">User Wise Feedback</span></a></li>
+                            <li><a href="Reports/FeedbackonDate.aspx"><span class="title">Feedback For Particular Date</span></a></li>
+                            <li><a href="Reports/PaymentOnDate.aspx" ><span class="title">Payment For Particular Date</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /main navigation -->
+            </div>
+            <!-- /page sidebar -->
+
+            <!-- Main container -->
+            <div class="main-container">
+
+                <!-- Main header -->
+                <div class="main-header row">
+                    <div class="col-sm-6 col-xs-7">
+
+                        <!-- User info -->
+                        <ul class="user-info pull-left">
+
+                            <li class="profile-info dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">
+                               <!-- profile pic --> <%=Session("uname") %><span class="caret"></span></a><!--welcome here-->
+
+                                <!-- User action menu -->
+                                <!--right side-->
+                                <ul class="dropdown-menu">
+
+                                    <li><a href="ChangePassword.aspx"><i class="icon-cog"></i>Change Password</a></li>
+                                    <li><a href="../Logout.aspx"><i class="icon-logout"></i>Logout</a></li>
+                                </ul>
+                                <!-- /user action menu -->
+
+                            </li>
+                        </ul>
+                        <!-- /user info -->
+
+                    </div>
+
+                    
+                </div>
+                <!-- /main header -->
+                <!-- /change from here -->
+                
+                <!-- Main content -->
+                <div class="main-content">
+                    <h1 class="page-title">
+                        <!--Form Title-->
+                        <asp:ContentPlaceHolder ID="FormTitle" runat="server"></asp:ContentPlaceHolder>
+                    </h1>
+                    <!-- Breadcrumb -->
+
+                    <div class="row">
+                        <asp:ContentPlaceHolder ID="FormContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <!--Ask for Deletion from now onwards-->
+
+                    <!-- Footer -->
+                    <!--<footer class="footer-main"> 
+			&copy; 2016 <strong>Integral</strong> Admin Template by <a target="_blank" href="#/">G-axon</a>
+		</footer>-->
+                    <!-- /footer -->
+
+                </div>
+                <!-- /main content -->
+
+            </div>
+            <!-- /main container -->
+
+        </div>
+        <!-- /page container -->
+
+        <!--Load JQuery-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="plugins/metismenu/js/jquery.metisMenu.js"></script>
+        <script src="plugins/blockui-master/js/jquery-ui.js"></script>
+        <script src="plugins/blockui-master/js/jquery.blockUI.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/loader.js"></script>
+    </form>
+</body>
+
+<!-- Mirrored from www.g-axon.com/integral-3.0/classic/form-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2016 07:07:17 GMT -->
+</html>
+

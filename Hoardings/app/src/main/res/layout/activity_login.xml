@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vivekprajapati.hoardings_json.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Login to Hoarding App"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Enter User Email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Enter User Password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:text="Login"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/tvRegistration"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Create an account? Register"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvforgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forgot Password ?"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

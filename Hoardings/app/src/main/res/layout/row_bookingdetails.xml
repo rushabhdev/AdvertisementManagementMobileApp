@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#536878"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvBookingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING ID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvHoardingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#F5F5DC"
+        android:text="HOARDING ID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBannerUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#F5F5DC"
+        android:text="BANNER URL"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvHoardingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#F5F5DC"
+        android:text="Hoarding Price"
+        android:textSize="18sp" />
+</LinearLayout>

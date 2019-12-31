@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_cart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#536878"
+    tools:context="com.example.vivekprajapati.hoardings_json.ViewCart">
+
+    <Button
+        android:id="@+id/btnPlaceBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Booking"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"/>
+
+    <ListView
+        android:id="@+id/lvCart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

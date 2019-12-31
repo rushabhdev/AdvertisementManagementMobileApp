@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vivekprajapati.hoardings_json">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookingActivity"
+            android:parentActivityName=".HomeActivity" android:label="My Bookings"/>
+        <activity android:name=".BookingDetails"
+            android:parentActivityName=".HomeActivity" android:label="Booking's Detail"/>
+        <activity android:name=".CityActivity"
+            android:parentActivityName=".HomeActivity" android:label="Available Cities"/>
+        <activity android:name=".FeedbackActivity"
+            android:parentActivityName=".HomeActivity" android:label="Feedbacks"/>
+        <activity android:name=".HoardingType" android:label="Hoarding Type"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".HoardingActivity"
+            android:parentActivityName=".HomeActivity" android:label="Available Hoarding"/>
+        <activity android:name=".PaymentActivity"
+            android:parentActivityName=".HomeActivity" android:label="My Payments"/>
+        <activity android:name=".LocationActivity"
+            android:parentActivityName=".HomeActivity" android:label="Available Location"/>
+        <activity android:name=".UserActivity"
+            android:parentActivityName=".HomeActivity" android:label="Chita's Client"/>
+        <activity android:name=".LoginActivity"
+            android:parentActivityName=".HomeActivity" android:label="Login"/>
+        <activity android:name=".RegestrationActivity"
+            android:parentActivityName=".HomeActivity" android:label="Registration"/>
+        <activity android:name=".ChangePasswordActivity"
+            android:parentActivityName=".HomeActivity" android:label="Change Password"/>
+        <activity android:name=".BookingForm"
+            android:parentActivityName=".HomeActivity" android:label="Booking Form"/>
+        <activity android:name=".FeedbackForm"
+            android:parentActivityName=".HomeActivity" android:label="Feedback Form"/>
+        <activity android:name=".HoardingDetailsActivity"
+            android:parentActivityName=".HomeActivity" android:label="Details of Hoarding"/>
+        <activity android:name=".ViewCart"
+            android:parentActivityName=".HomeActivity" android:label="View Cart"/>
+        <activity android:name=".UploadBannerActivity"
+            android:parentActivityName=".HomeActivity" android:label="Upload Banner"/>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Forgot_Password"
+            android:parentActivityName=".HomeActivity" android:label="Forgot Password"/>
+        <activity android:name=".AboutUsActivity"
+            android:parentActivityName=".HomeActivity" android:label="About Us"/>
+        <activity android:name=".Temp" />
+        <activity android:name=".ContactUs"
+            android:parentActivityName=".HomeActivity" android:label="Contact Us"/>
+       <!-- <activity android:name=".MyOrders" /> -->
+    </application>
+
+</manifest>

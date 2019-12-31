@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#536878"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivBannerImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvHoardingId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:padding="8dp"
+                android:text="HOARDING ID"
+                android:textColor="#F5F5DC"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="70"
+                android:src="@drawable/ic_remove_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHoardingPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="HOARDING PRICE"
+            android:textColor="#F5F5DC"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvChooseImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Banner"
+            android:textColor="#F5F5DC"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+        <!-- android:textColor="@android:color/holo_red_dark" -->
+
+    </LinearLayout>
+
+</LinearLayout>

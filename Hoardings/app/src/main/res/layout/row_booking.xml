@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#536878"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBookingNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING DATE"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING DATE"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBookingDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING DESCRIPTION"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBookingStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING STARTDATE"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvCouponId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="COUPON ID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBookingStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#F5F5DC"
+        android:text="BOOKING STATUS"
+        android:textSize="18sp" />
+
+</LinearLayout>

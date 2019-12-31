@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_view_quilt_black_24dp"
+            android:title="Hoardings" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="My Cart" />
+
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="My Bookings" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/mypaymentsf"
+            android:title="My Payments" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_speaker_notes_black_24dp"
+            android:title="Feedbacks" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_error_outline_black_24dp"
+            android:title="Who we are ?" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_reply_all_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>

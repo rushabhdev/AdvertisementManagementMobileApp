@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#536878">
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Confirm Booking Details"
+            android:textColor="#0047AB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnbookhoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking"
+            android:background="@drawable/buttonshape"
+            android:textColor="#F5F5DC"/>
+    </RelativeLayout>
+
+    <!-- Content below header and above footer -->
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/activity_booking_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:context="com.example.vivekprajapati.hoardings_json.BookingForm">
+
+            <EditText
+                android:id="@+id/etBookingDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:textColorHint="#F5F5DC"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/etBookingStartdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#F5F5DC"
+                android:hint="Book From Date" />
+
+
+            <EditText
+                android:id="@+id/etBookingEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#F5F5DC"
+                android:hint="Book To Date" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/etCouponCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textColorHint="#F5F5DC"
+                    android:hint="Coupon Code" />
+
+                <Button
+                    android:id="@+id/btnApplyCoupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#F5F5DC"
+                    android:text="Apply" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

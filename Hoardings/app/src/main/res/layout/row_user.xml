@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#536878">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F5F5DC"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserAddress"
+        android:text="User Address"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F5F5DC"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserPassword"
+        android:text="User Password"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F5F5DC"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:text="User Email"
+        android:textSize="18sp"
+        android:textColor="#F5F5DC"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserGender"
+        android:text="User Gender"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="#F5F5DC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserMobile"
+        android:text="User Mobile"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="#F5F5DC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLocationId"
+        android:text="Location id"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="#F5F5DC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

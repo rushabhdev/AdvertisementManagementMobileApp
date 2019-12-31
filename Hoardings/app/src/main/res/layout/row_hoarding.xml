@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivHoardingImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/tvHoardingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:padding="16dp"
+            android:text="Hoarding Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHoardingHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="right"
+            android:padding="12dp"
+            android:text="Size : 220 * 320"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/tvLocationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="Location Id"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvHoardingPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="right"
+            android:text="Price : Rs.20000/-"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
